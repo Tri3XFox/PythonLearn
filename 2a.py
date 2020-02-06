@@ -1,0 +1,7 @@
+[a, b, c]=map(int, input().split())
+sa, sb, st = str(a), str(b), str(c)
+print(a, '+', b, '+', c, '=', a+b+c, sep='')
+print(a, '*',b, '*', c, '=', a*b*c, sep='')
+d=((a+b+c)/3)
+d=float('{:.3f}'.format(d))
+print('(', a, '+', b, '+', c, ')', '/' , '3', '=', d, sep='')
